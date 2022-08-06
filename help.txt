@@ -2,3 +2,6 @@ run pdflatex file.tex to compile
 
 
 npx nodemon --watch first.tex --exec pdflatex first.tex
+
+
+https://www.overleaf.com/learn/latex/Operators
