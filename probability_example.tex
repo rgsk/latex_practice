@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[document]{ragged2e}
+
+\DeclareMathOperator{\arctg}{\int\int}
+
+\begin{document}
+Each van has 7 seats. So, there are 14 numbered seats in two vans. \hfill \break
+
+The total number of ways in which 3 girls and 9 boys can sit on these seats is 
+\(^{14}C_{12} \times 12 \). \hfill \break
+
+So, total number of seating arrangements = \(^{14}C_{12} \times 12 \) \hfill \break
+
+In a van 3 girls can choose adjacent seats in the back row in two ways 
+(1, 2, 3, or 2, 3, 4). So, the number of ways in which 3 girls can sit in the back row
+on adjacent seats is \(2 (3!)\) ways. The number of ways in which 9 boys can sit 
+on remaining 11 seats is \(^{11}C_{9} \times 9! \) ways. Therefore, the number
+of ways in which 3 girls and 9 boys can sit in two vans
+\[ = 2(3!) \times ^{11}C_{9} \times 9! + 2(3!) \times ^{11}C_{9} \times 9! + ^{11}C_{9} \times 9!
+= 4 \times 3! \times ^{11}C_{9} \times 9!
+\]
+Hence, required probability \[=\frac{4 \times 3! \times ^{11}C_{9} \times 9!}{^{14}C_{12} \times 12!}
+= \frac{1}{91} \]
+ 
+\end{document}  
